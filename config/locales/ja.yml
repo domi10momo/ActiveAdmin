@@ -1,9 +1,24 @@
 ja:
- activerecord:
+  activerecord:
     models:
       user: 'ユーザー'
+      comment: 'コメント'
+      admin_user: '管理者一覧'
     attributes:
       user:
         name: '名前'
         age: '年齢'
         address: '住所'
+        created_at: '作成日時'
+        updated_at: '更新日時'
+      comment:
+        title: 'タイトル'
+        content: '内容'
+        created_at: '作成日時'
+        updated_at: '更新日時'
+      admin_user:
+        id: 'ID'
+        email: 'アドレス'
+        created_at: '作成日時'
+        current_sign_in_at: 最新ログイン日時
+        sign_in_count: ログイン回数
